@@ -67,16 +67,9 @@ Make sure to replace `your_script.py` with the actual name of your script.
 |-- your_script.py
 |-- README.md
 ```
-
 Ensure your lyrics files are organized in the `TM_CA1_Lyrics` directory, and the test data is in `test.tsv`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
 - This script uses the Natural Language Toolkit (NLTK) library for tokenization and sentiment analysis.
 - Special thanks to the course instructor for the assignment.
-
-Feel free to customize this template to fit your project's specific details and requirements.
