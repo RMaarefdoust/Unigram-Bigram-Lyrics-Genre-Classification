@@ -1,54 +1,78 @@
 
 ```markdown
-# Text Genre Classification
+# Text Mining - Course Assignment 2: Lyrics Genre Classification
 
-This project focuses on text genre classification using unigram, bigram, and combined models. The genres include Pop, Rock, Rap, Metal, Country, and Blues. The classification is performed on a dataset of song lyrics.
+## Overview
 
-## Prerequisites
+This Python script is part of the Text Mining course's Assignment 2, focusing on Lyrics Genre Classification. The script performs sentiment analysis and calculates term and pairs frequency probabilities to classify lyrics into genres using unigram, bigram, and combined models.
 
-Before running the code, ensure you have the following dependencies installed:
+## Dependencies
 
-- Python 3.x
+Make sure you have the necessary libraries installed:
+
+- os
 - nltk
 - pandas
-- numpy
+- sklearn
 - matplotlib
-- scikit-learn
 - scipy
 - statsmodels
+- numpy
 
-Install the required dependencies using the following command:
-
-```bash
-pip install nltk pandas numpy matplotlib scikit-learn scipy statsmodels
-```
-
-Additionally, download the NLTK punkt data:
+You can install these libraries using:
 
 ```bash
-python -m nltk.downloader punkt
+pip install nltk pandas scikit-learn matplotlib scipy statsmodels numpy
 ```
 
-## File Descriptions
+## Setup
 
-- **MixedModel.py:** Main script for text genre classification.
-- **test.tsv:** Test dataset in tab-separated values format.
-- **TM_CA1_Lyrics/:** Directory containing song lyrics categorized by genre.
+1. Clone the repository:
+
+```bash
+git clone .....
+cd your-repo
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
- Run the main script:
+Run the script using the following command:
 
 ```bash
 python MixedModel.py
 ```
 
+## Directory Structure
 
-## Results
+```plaintext
+/
+|-- TM_CA1_Lyrics/
+|   |-- Pop/
+|   |   |-- lyrics_file1.txt
+|   |   |-- lyrics_file2.txt
+|   |   |-- ...
+|   |-- Rock/
+|   |   |-- lyrics_file1.txt
+|   |   |-- lyrics_file2.txt
+|   |   |-- ...
+|   |-- Rap/
+|   |   |-- ...
+|-- test.tsv
+|-- MixedModel.py
+|-- README.md
+```
 
-The script will output the genre classification results based on the unigram, bigram, and combined models. It will also display F1-scores and classification reports. T-tests are performed to compare the models' performances.
+Ensure your lyrics files are organized in the `TM_CA1_Lyrics` directory, and the test data is in `test.tsv`.
 
-## Example Input
+## Acknowledgments
 
-The script provides an example input for testing the models. Replace it with your actual input when evaluating the models.
+- This script uses the Natural Language Toolkit (NLTK) library for tokenization and sentiment analysis.
+- Special thanks to the course instructor for the assignment.
+```
 
