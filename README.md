@@ -37,20 +37,12 @@ python -m nltk.downloader punkt
 
 ## Usage
 
-1. Clone the repository:
+ Run the main script:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+python MixedModel.py
 ```
 
-2. Run the main script:
-
-```bash
-python 123.py
-```
-
-3. Follow the instructions and provide input when prompted.
 
 ## Results
 
