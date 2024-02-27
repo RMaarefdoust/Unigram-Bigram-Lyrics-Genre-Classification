@@ -1,5 +1,3 @@
-
-```markdown
 # Text Mining - Course Assignment 2: Lyrics Genre Classification
 
 ## Overview
