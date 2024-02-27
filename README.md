@@ -28,7 +28,7 @@ pip install nltk pandas scikit-learn matplotlib scipy statsmodels numpy
 1. Clone the repository:
 
 ```bash
-git clone (https://github.com/RMaarefdoust/Unigram-Bigram-Lyrics-Genre-Classification)
+git clone https://github.com/RMaarefdoust/Unigram-Bigram-Lyrics-Genre-Classification
 cd your-repo
 ```
 
